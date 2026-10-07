@@ -1,0 +1,488 @@
+{
+  "nom": "Reality Quest",
+  "langue": "fr",
+  "organisations": {
+    "Conseil des délinquants du district de Gwanak": {
+      "canon": true,
+      "couleur": "#C8102E",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du district", "canon": true },
+        { "emoji": "🏛️", "role": "Dirigeant", "canon": true },
+        { "emoji": "📋", "role": "Représentant principal", "canon": true },
+        { "emoji": "⚔️", "role": "Officier supérieur", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "Boramae-dong": {
+      "canon": true,
+      "couleur": "#B22222",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Boramae-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Boramae-dong", "canon": true },
+        { "emoji": "📋", "role": "Officier de Boramae-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Boramae-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite de Boramae-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Boramae-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Boramae-dong", "canon": false }
+      ]
+    },
+
+    "Sillim-dong": {
+      "canon": true,
+      "couleur": "#FF6347",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Sillim-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Sillim-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Sillim-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Sillim-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite de Sillim-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Sillim-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Sillim-dong", "canon": false }
+      ]
+    },
+
+    "Seowon-dong": {
+      "canon": true,
+      "couleur": "#4682B4",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Seowon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Seowon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Seowon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Seowon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite de Seowon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Seowon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Seowon-dong", "canon": false }
+      ]
+    },
+
+    "Nanghyang-dong": {
+      "canon": true,
+      "couleur": "#8A2BE2",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Nanghyang-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Nanghyang-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Nanghyang-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Nanghyang-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Nanghyang-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Nanghyang-dong", "canon": false }
+      ]
+    },
+
+    "Nakseongdae-dong": {
+      "canon": true,
+      "couleur": "#FFA500",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Nakseongdae-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Nakseongdae-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Nakseongdae-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Nakseongdae-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Nakseongdae-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Nakseongdae-dong", "canon": false }
+      ]
+    },
+
+    "Jowon-dong": {
+      "canon": true,
+      "couleur": "#20B2AA",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Jowon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Jowon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Jowon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Jowon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Jowon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Jowon-dong", "canon": false }
+      ]
+    },
+
+    "Miseong-dong": {
+      "canon": true,
+      "couleur": "#9370DB",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Miseong-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Miseong-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Miseong-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Miseong-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Miseong-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Miseong-dong", "canon": false }
+      ]
+    },
+
+    "Cheongnim-dong": {
+      "canon": true,
+      "couleur": "#3CB371",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Cheongnim-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Cheongnim-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Cheongnim-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Cheongnim-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Cheongnim-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Cheongnim-dong", "canon": false }
+      ]
+    },
+
+    "Jungang-dong": {
+      "canon": true,
+      "couleur": "#DC143C",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Jungang-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Jungang-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Jungang-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Jungang-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Jungang-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Jungang-dong", "canon": false }
+      ]
+    },
+
+    "Sinsa-dong": {
+      "canon": true,
+      "couleur": "#FF1493",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Sinsa-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Sinsa-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Sinsa-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Sinsa-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Sinsa-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Sinsa-dong", "canon": false }
+      ]
+    },
+
+    "Inheon-dong": {
+      "canon": true,
+      "couleur": "#1E90FF",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant d'Inheon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant d'Inheon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier d'Inheon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe d'Inheon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre d'Inheon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue d'Inheon-dong", "canon": false }
+      ]
+    },
+
+    "Haengun-dong": {
+      "canon": true,
+      "couleur": "#00CED1",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Haengun-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Haengun-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Haengun-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Haengun-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Haengun-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Haengun-dong", "canon": false }
+      ]
+    },
+
+    "Nangok-dong": {
+      "canon": true,
+      "couleur": "#8FBC8F",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Nangok-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Nangok-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Nangok-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Nangok-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Nangok-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Nangok-dong", "canon": false }
+      ]
+    },
+
+    "Euncheon-dong": {
+      "canon": true,
+      "couleur": "#DAA520",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant d'Euncheon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant d'Euncheon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier d'Euncheon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe d'Euncheon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre d'Euncheon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue d'Euncheon-dong", "canon": false }
+      ]
+    },
+
+    "Sinwon-dong": {
+      "canon": true,
+      "couleur": "#6A5ACD",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Sinwon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Sinwon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Sinwon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Sinwon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Sinwon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Sinwon-dong", "canon": false }
+      ]
+    },
+
+    "Seorim-dong": {
+      "canon": true,
+      "couleur": "#CD5C5C",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Seorim-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Seorim-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Seorim-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Seorim-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Seorim-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Seorim-dong", "canon": false }
+      ]
+    },
+
+    "Namhyeon-dong": {
+      "canon": true,
+      "couleur": "#556B2F",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Namhyeon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Namhyeon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Namhyeon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Namhyeon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Namhyeon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Namhyeon-dong", "canon": false }
+      ]
+    },
+
+    "Seonghyeon-dong": {
+      "canon": true,
+      "couleur": "#B0C4DE",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Seonghyeon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Seonghyeon-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Seonghyeon-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Seonghyeon-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Seonghyeon-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Seonghyeon-dong", "canon": false }
+      ]
+    },
+
+    "Samseong-dong": {
+      "canon": true,
+      "couleur": "#BC8F8F",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Samseong-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Samseong-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Samseong-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Samseong-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Samseong-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Samseong-dong", "canon": false }
+      ]
+    },
+
+    "Daehak-dong": {
+      "canon": true,
+      "couleur": "#4169E1",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Daehak-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant de Daehak-dong", "canon": false },
+        { "emoji": "📋", "role": "Officier de Daehak-dong", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe de Daehak-dong", "canon": false },
+        { "emoji": "👊", "role": "Membre de Daehak-dong", "canon": true },
+        { "emoji": "🔰", "role": "Recrue de Daehak-dong", "canon": false }
+      ]
+    },
+
+    "Bongcheon-dong": {
+      "canon": true,
+      "couleur": "#8B4513",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Bongcheon-dong", "canon": true },
+        { "emoji": "⚔️", "role": "Vice-représentant", "canon": false },
+        { "emoji": "📋", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "Cheongnyong-dong": {
+      "canon": true,
+      "couleur": "#1E90FF",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Représentant de Cheongnyong-dong", "canon": true },
+        { "emoji": "🏛️", "role": "Dirigeant", "canon": false },
+        { "emoji": "⚔️", "role": "Vice-représentant", "canon": false },
+        { "emoji": "📋", "role": "Responsable", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "일진회 — Iljinhoe": {
+      "canon": true,
+      "couleur": "#8B0000",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef de l'Iljinhoe", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "조폭 — Joppok": {
+      "canon": true,
+      "couleur": "#2F4F4F",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Joppok", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "백호파 — Baekho-pa": {
+      "canon": true,
+      "couleur": "#F5F5F5",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Baekho-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "흑룡파 — Heukryong-pa": {
+      "canon": true,
+      "couleur": "#0A0A0A",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Heukryong-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "청룡파 — Cheongryong-pa": {
+      "canon": true,
+      "couleur": "#1E3A8A",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Cheongryong-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "주작파 — Jujak-pa": {
+      "canon": true,
+      "couleur": "#B22222",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Jujak-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "현무파 — Hyeonmu-pa": {
+      "canon": true,
+      "couleur": "#2E2E2E",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Hyeonmu-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "흑호파 — Heukho-pa": {
+      "canon": true,
+      "couleur": "#1A1A1A",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef du Heukho-pa", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Conseiller", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+
+    "Organisation générique": {
+      "canon": false,
+      "couleur": "#8A2BE2",
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef", "canon": true },
+        { "emoji": "👑", "role": "Co-chef", "canon": false },
+        { "emoji": "🏛️", "role": "Dirigeant", "canon": false },
+        { "emoji": "📋", "role": "Représentant", "canon": false },
+        { "emoji": "⚔️", "role": "Capitaine", "canon": false },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    }
+  },
+
+  "roles_speciaux": [
+    { "emoji": "👑", "role": "Fondateur", "canon": false },
+    { "emoji": "👑", "role": "Ancien chef", "canon": false },
+    { "emoji": "📋", "role": "Représentant de quartier", "canon": false },
+    { "emoji": "🤝", "role": "Membre affilié", "canon": false },
+    { "emoji": "🎖️", "role": "Unité spéciale", "canon": false }
+  ],
+
+  "personnages": [
+    { "nom": "Ha Do-wan", "organisation": "Boramae-dong", "quartier": "Boramae-dong", "fonction": "Représentant" },
+    { "nom": "Kang Se-hoon", "organisation": "Boramae-dong", "quartier": "Boramae-dong", "fonction": "Vice-représentant" },
+    { "nom": "Si-yeon", "organisation": "Boramae-dong", "quartier": "Boramae-dong", "fonction": "Représentant intérimaire" },
+    { "nom": "Han Eun-sung", "organisation": "Sillim-dong", "quartier": "Sillim-dong", "fonction": "Représentant" },
+    { "nom": "Kim Ho-sung", "organisation": "Nangok-dong", "quartier": "Nangok-dong", "fonction": "Représentant" },
+    { "nom": "Kang In-kang", "organisation": "Seowon-dong", "quartier": "Seowon-dong", "fonction": "Représentant" },
+    { "nom": "Yu Geun-jin", "organisation": "Jowon-dong", "quartier": "Jowon-dong", "fonction": "Représentant" },
+    { "nom": "Jung Seok-young", "organisation": "Bongcheon-dong", "quartier": "Bongcheon-dong", "fonction": "Chef" },
+    { "nom": "Gong Cheol", "organisation": "Inheon-dong", "quartier": "Inheon-dong", "fonction": "Ancien Représentant" },
+    { "nom": "Steven Jegal", "organisation": "일진회 — Iljinhoe", "quartier": null, "fonction": "Chef de l'Iljinhoe" }
+  ]
+}

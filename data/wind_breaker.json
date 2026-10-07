@@ -1,0 +1,83 @@
+{
+  "nom": "WIND BREAKER",
+  "langue": "fr",
+  "organisations": {
+    "Bōfūrin": {
+      "couleur": "#1E90FF",
+      "canon": true,
+      "hierarchie": [
+        { "emoji": "👑", "role": "Teppen", "canon": true },
+        { "emoji": "🏛️", "role": "Direction de Bōfūrin", "canon": false },
+        { "emoji": "⚔️", "role": "Quatre Rois", "canon": true },
+        { "emoji": "📋", "role": "Second des Quatre Rois", "canon": true },
+        { "emoji": "🛡️", "role": "Officier", "canon": false },
+        { "emoji": "🔥", "role": "Chef d'équipe", "canon": false },
+        { "emoji": "👊", "role": "Membre confirmé", "canon": false },
+        { "emoji": "👊", "role": "Membre de Bōfūrin", "canon": true },
+        { "emoji": "🎓", "role": "Élève de Furin", "canon": true }
+      ],
+      "quatre_rois": [
+        { "nom": "Tōma Hiragi", "groupe_fr": "Groupe Tamon", "canon": true },
+        { "nom": "Tasuku Tsubakino", "groupe_fr": "Groupe Jikoku", "canon": true },
+        { "nom": "Takumi Momose", "groupe_fr": "Groupe Zōjō", "canon": true },
+        { "nom": "Saku Mizuki", "groupe_fr": "Groupe Kōmoku", "canon": true }
+      ]
+    },
+    "Shishitoren": {
+      "couleur": "#FF4500",
+      "canon": true,
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef", "canon": true },
+        { "emoji": "⚔️", "role": "Second", "canon": true },
+        { "emoji": "🏛️", "role": "Cadre", "canon": false },
+        { "emoji": "🔥", "role": "Responsable", "canon": false },
+        { "emoji": "👊", "role": "Membre d'élite", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Nouveau membre", "canon": false }
+      ]
+    },
+    "KEEL": {
+      "couleur": "#2F4F4F",
+      "canon": true,
+      "hierarchie": [
+        { "emoji": "👑", "role": "Dirigeant", "canon": true },
+        { "emoji": "🏛️", "role": "Cadre", "canon": false },
+        { "emoji": "🔥", "role": "Responsable", "canon": false },
+        { "emoji": "⚔️", "role": "Membre supérieur", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+    "GRAVEL": {
+      "couleur": "#808080",
+      "canon": true,
+      "hierarchie": [
+        { "emoji": "👑", "role": "Chef", "canon": true },
+        { "emoji": "🏛️", "role": "Cadre", "canon": false },
+        { "emoji": "🔥", "role": "Responsable", "canon": false },
+        { "emoji": "⚔️", "role": "Mercenaire", "canon": true },
+        { "emoji": "👊", "role": "Membre", "canon": true },
+        { "emoji": "🔰", "role": "Recrue", "canon": false }
+      ]
+    },
+    "Roppo Ichiza": {
+      "couleur": "#8A2BE2",
+      "canon": true,
+      "hierarchie": [
+        { "emoji": "👑", "role": "Dirigeant", "canon": true },
+        { "emoji": "⚔️", "role": "Bras droit", "canon": false },
+        { "emoji": "🏛️", "role": "Cadre", "canon": false },
+        { "emoji": "🔥", "role": "Responsable", "canon": false },
+        { "emoji": "👊", "role": "Membre", "canon": true }
+      ]
+    }
+  },
+  "protection_ville": {
+    "hierarchie": [
+      { "emoji": "👑", "role": "Responsable", "canon": false },
+      { "emoji": "⚔️", "role": "Responsable de secteur", "canon": false },
+      { "emoji": "🛡️", "role": "Protecteur", "canon": false },
+      { "emoji": "👊", "role": "Membre", "canon": false }
+    ]
+  }
+}
