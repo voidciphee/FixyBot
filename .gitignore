@@ -1,6 +1,31 @@
+# Secrets
 .env
+*.env
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
-node_modules/
+env/
+
+# Cache et installations locales
+.cache/
+.local/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
